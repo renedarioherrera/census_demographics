@@ -63,3 +63,4 @@ gis/
 
 # ignore figures folder
 figures/
+.Rproj.user
