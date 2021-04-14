@@ -17,8 +17,8 @@ acs_variables <- load_variables(year = 2019, dataset = "acs5/profile", cache = T
 # percent age 65 and over 
 age_65 <- get_acs(geography = "tract",
                  state = "az",
-                 county = "Pima",
-                 variables = c("65_years" = "DP05_0029P"),
+                 variables = c("65_years" = "DP05_0029",
+                               "total" = "DP05_0001"),
                  cache_table = TRUE,
                  year = 2019,
                  survey = "acs5",
